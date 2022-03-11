@@ -29,7 +29,7 @@ def poids_taille():
 
     return categorie
 
-#ajouter commentaires sur ce que tu fais (appeller une fonction) 
+#ajouter commentaires sur ce que tu fais (appeller une fonction)  
 rep = poids_taille()
 print(f"Votre catégorie imc est {rep}")
     

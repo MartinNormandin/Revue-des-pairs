@@ -2,7 +2,7 @@
 #trouve la personne.
 
 # nom de la fonction (presentement: poids_taille) ne représente pas ce qu'elle fait
-def poids_taille(): 
+def categorie(): 
 # ne pas avoir de ligne vide inutile entre les lignes de code de la fonction 
 
     poids = int(input("Entrer votre poids en kg: "))
@@ -30,7 +30,8 @@ def poids_taille():
     return categorie
 
 #ajouter commentaires sur ce que tu fais (appeller une fonction)  
-rep = poids_taille()
+#appel de la fonction categorie
+rep = categorie()
 print(f"Votre catégorie imc est {rep}")
     
 

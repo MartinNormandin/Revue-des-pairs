@@ -6,8 +6,9 @@ def nombre_premier():
     nombre = int(input("Veuillez entrer un nombre entre 1 et 20: "))
 
     if nombre < 1 or nombre > 20:
+        # éviter les espaces entre le nom de la fonction (ici: la fonction print) et les ()
         print ("Nombre invalide, essayer de nouveau: ")
-
+        # eviter les lignes plus que 80 caractères 
     elif nombre == 2 or nombre == 3 or nombre == 5 or nombre == 7 or nombre == 11 or nombre == 13 or nombre == 17 or nombre == 19:
         print ("Votre nombre est un nombre premier")
 

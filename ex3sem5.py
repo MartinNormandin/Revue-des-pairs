@@ -4,8 +4,9 @@
 
 def dictionnaire():
 
-    dict = {"Keven Presseau-St-Laurent" : "Concepts de programmation 1", "Emma Senez Parent": "Logique mathématique", "Jean-Pierre Fiset": "système d'exploitation"}
-
+    dict = {"Keven Presseau-St-Laurent" : "Concepts de programmation 1", "Emma Senez Parent": "Logique mathématique",
+     "Jean-Pierre Fiset": "système d'exploitation"}
+    #print inutile à la réalisation du problème
     print(dict)
 
     choix = int(input("Choisir un cours (1, 2 ou 3): "))
@@ -15,7 +16,7 @@ def dictionnaire():
 
     elif choix == 2:
         print(f"Emma Senez Parent", dict["Emma Senez Parent"])
-
+    #le else devrait être un elif choix == 3 et ensuite mettre un else pour prendre toutes autres sélections
     else:
         print(f"Jean-Pierre Fiset", dict["Jean-Pierre Fiset"])
 
@@ -47,7 +48,7 @@ def fichier():
 
 def exercice5(dico_entrant):
      
-    enseignant = (input("Entrer le nom de votre enseignant: "))    
+    enseignant = (input("Entrer le nom de votre enseignant avec majuscules: "))    
 
     enseignant1 = enseignant + "\n"
 
@@ -76,6 +77,7 @@ def exercice6():
     mon_fichier.write(f"\n{ajout_en}\n{ajout_cours}")
     mon_fichier.close()
 
+# L'option d'un menu à l'utilisateur est absent
 
 exercice6()
 
